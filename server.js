@@ -3,7 +3,7 @@ const express = require('express');
 const fs = require('fs');  // File system module to read files
 const mysql = require('mysql2');  // MySQL package to interact with the database
 
-const app = express();
+const app = express(); // Create express application which is a web server that listens for requests and responds
 app.use(express.json());  // Middleware to parse incoming JSON request bodies
 
 // Step 1: Initial Database Connection without specifying a database
